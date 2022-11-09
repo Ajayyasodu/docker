@@ -40,3 +40,4 @@ if(($args.Count -eq 0) -or ($args[0] -match "^--.*")) {
   Invoke-Expression "$args"
   exit $lastExitCode
 }
+#This is the extra data of the file
